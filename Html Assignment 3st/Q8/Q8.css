@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(65, 65, 65);
+}
+.contener{
+    width: 700px;
+    max-width: 100%;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 99;
+}
+.heading{
+    font-size: 10px;
+    font-family: fantasy;
+    padding: 0px 0px 20px 0px ;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(29, 29, 29);
+}
+.flex{
+    display: flex;
+}
+.flex input{
+    width: 100%;
+}
+.gred{
+    display: flex;
+    justify-content: space-between;
+}
+.gred input{
+    width: 100%;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    outline: none;  
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(29, 29, 29);
+}
+textarea{
+    margin: 10px;
+    outline: none;  
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(29, 29, 29);
+    padding: 20px;
+    width: 100%;
+}
+input, textarea{
+    font-size: 15px;
+
+}
+.btn input{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.main{
+    position: relative;
+    margin: 50px;
+}
+
+p, h1{
+    font-family: fantasy;
+}

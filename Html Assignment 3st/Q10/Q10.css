@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(65, 65, 65);
+}
+.contener{
+    width: 700px;
+    max-width: 100%;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 99;
+}
+.heading{
+    font-size: 10px;
+    font-family: fantasy;
+    padding: 0px 0px 20px 0px ;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(29, 29, 29);
+    text-align: center;
+}
+
+.per{
+    height: 200px;
+    overflow: auto;
+    padding: 30px;
+}
+
+.btn{
+    border-left: none;
+    border-right: none;
+    border-top:  1px solid rgb(29, 29, 29);
+    border-bottom: none;
+}
+.btn input{
+    margin-top: 20px;  
+    padding: 10px 20px ;  
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn label{
+    font-family: fantasy;
+}
+
+
+p, h1{
+    font-family: fantasy;
+}

@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+html{
+    font-family: 'Heebo', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background-color: #03001C;
+}
+
+.happy-icon{
+    float: right;
+}
+
+img{
+    height: 250px;
+    margin-right: 50px;
+    padding-left: 60px;
+}
+
+.main{
+    margin: 150px 20px 0px 100px;
+}
+
+input{
+    color: aliceblue;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}

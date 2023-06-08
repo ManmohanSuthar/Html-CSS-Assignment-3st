@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    text-align: center;
+    font-family: fantasy;
+    color: aliceblue;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #120320;
+    position: relative;
+}
+
+.cardall{
+    max-width: fit-content;
+    background-color:blue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    position:absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%);
+}
+
+img{
+    height: 150px;
+}
+
+.card1{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%);
+    background-color: #08C624;
+}
+
+.card2{
+    left: 45%;
+    top: 148px;
+    background-color:#C60838 ;
+}
+.card3{
+    left: 53%;
+    top: 187px;
+    background-color: #C608C5;
+}
+
+#heading{
+    color: aliceblue;
+    padding: 20px;
+}
+
+#heading:hover{
+    color: aqua;
+}
+
+.cardall:hover{
+        box-shadow: 0 0 8px 0 grey;
+    z-index: 999;
+}
